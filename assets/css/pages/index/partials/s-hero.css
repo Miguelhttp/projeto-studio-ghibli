@@ -1,0 +1,67 @@
+.s-hero {
+  width: 100%;
+  min-height: 100vh;
+  background: url('../../../../images/bg-ghibli-two.jpg') no-repeat rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  background-position: center center;
+  padding: 170px 60px 120px;
+  gap: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.s-hero .left {
+  width: 100%;
+  max-width: 38.875rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.s-hero h1 {
+  font-size: 2.7rem;
+  line-height: 1.1;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 820px;
+  z-index: 2;
+  color: var(--color-white-dark);
+  text-align: center;
+}
+
+.s-hero p {
+  color: white;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 100%;
+  max-width: 600px;
+  text-align: justify;
+  z-index: 2;
+  padding: 10px 0 20px;
+}
+
+.s-hero .btn-more {
+  color: #0080BD;
+  background-color: var(--color-white-dark);
+  padding: 15px 50px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.965rem;
+  transition: 0.4s;
+}
+
+.s-hero .btn-more:hover {
+  color: var(--color-white-dark);
+  background-color: #82B6D1;
+}
+
+@media screen and (max-width: 992px) {
+  .s-hero {
+    padding: 120px 20px 60px;
+  }
+
+  .s-hero h1 {
+    font-size: 1.8rem;
+  }
+}

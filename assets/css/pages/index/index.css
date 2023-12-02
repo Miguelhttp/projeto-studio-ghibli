@@ -1,0 +1,8 @@
+@import './partials/header.css';
+@import './partials/s-hero.css';
+@import './partials/s-content.css';
+@import './partials/s-content-two.css';
+@import './partials/s-content-three.css';
+@import './partials/s-slider.css';
+@import './partials/footer.css';
+@import '../../global/global.css';

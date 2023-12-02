@@ -1,0 +1,58 @@
+.s-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 80px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  background: linear-gradient(180deg, #0080BD, #82B6D1); 
+}
+
+.s-content > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  padding: 0 100px;
+}
+
+.s-content h2 {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px 0;
+  z-index: 2;
+}
+
+.s-content p {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-align: justify;
+  z-index: 2;
+}
+
+.s-content a {
+  color: #606060;
+}
+
+.s-content > img {
+  max-width: 500px;
+}
+
+@media screen and (max-width: 992px) {
+  .s-content {
+    padding: 20px 20px;
+    flex-direction: column;
+  }
+
+  .s-content > div {
+    padding: 20px 0;
+    max-width: 300px;
+  }
+
+  .s-content > img {
+    max-width: 380px;
+  }
+}
